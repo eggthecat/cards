@@ -2,11 +2,18 @@ $(document).ready(function(){
 
   $(".show").click(function() {
 
-    $(".text").parent("").show();
+    $(this).parent(".fader").children(".text").show();
   });
 
   $(".hide").click(function() {
-    $(".text").hide();
+    $(this).parent(".fader").children(".text").hide();
   });
+
+  $(".card-title").click(function(){
+    $(this).toggleClass("back-color");
+    $
+  })
+
+
 
 });

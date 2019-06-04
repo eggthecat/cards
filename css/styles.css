@@ -1,6 +1,10 @@
 .text {
   display: none;
 }
+
+.back-color {
+  background-color: green;
+}
 /*
 .fade {
   display: none;
